@@ -108,7 +108,7 @@ const Navbar = () => {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full text-gray-300 text-xl'
               href='https://www.linkedin.com/in/ryangeorgehoward/'
               target='_blank'
             >
@@ -117,7 +117,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#000]'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full text-gray-300 text-xl'
               href='https://github.com/ryanghoward'
               target='_blank'
             >
@@ -126,7 +126,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#639FB6]'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full text-gray-300 text-xl'
               href='/'
             >
               Email <HiOutlineMail size={30} />
@@ -134,7 +134,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full text-gray-300 text-xl'
               href='https://docs.google.com/document/d/1DLcjAU8fFmUXrt-9VPzF80zesnrZdHWHtt5dL-MApcU/edit?usp=sharing'
               target='_blank'
             >
