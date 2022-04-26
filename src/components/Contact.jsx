@@ -17,7 +17,7 @@ const Contact = () => {
             Contact
           </p>
           <p className='text-gray-300 py-4'>
-            Submit the form below or shoot me an email - ryghoward@gmail.com
+            Submit the form below or shoot me an email at ryghoward@gmail.com
           </p>
           <div className='flex justify-around sm:justify-between pt-4 text-2xl text-[#96d8d8]'>
             <a

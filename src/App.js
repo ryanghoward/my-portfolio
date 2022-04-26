@@ -5,7 +5,7 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import RGHgif from "./assets/RGH.gif";
-// import LandingPage from "./components/LandingPage";
+import LandingPage from "./components/LandingPage";
 // import { useEffect, useState } from "react";
 import {
   Route,
@@ -16,27 +16,28 @@ import {
 } from "react-router-dom";
 
 function App() {
-  const LandingPage = () => {
-    return (
-      <div>
-        <img
-          src={RGHgif}
-          alt='Logo'
-          style={{ width: "100px", height: "80px" }}
-        />
-        <button>Enter site</button>
-      </div>
-    );
-  };
+  // const LandingPage = () => {
+  //   return (
+  //     <div>
+  //       <img
+  //         src={RGHgif}
+  //         alt='Logo'
+  //         style={{ width: "100px", height: "80px" }}
+  //       />
+  //       <button to='/'>Enter site</button>
+  //     </div>
+  //   );
+  // };
 
   return (
     <>
       <div className='text-2xl font-bold'>
-        <Navbar />
         <Router>
           <Routes>
             <Route exact path='/' element={<LandingPage />} />
           </Routes>
+          <Navbar />
+          <Home to='/' />
           <About />
           <Skills />
           <Work />
