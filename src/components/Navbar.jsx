@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // import RGH from "../assets/RGH.png";
-// import RGHgif from "../assets/RGH.gif";
-import RGH2 from "../assets/RGH2.PNG";
+import RGHgif from "../assets/RGH.gif";
+// import RGH2 from "../assets/RGH2.PNG";
 import {
   FaBars,
   FaTimes,
@@ -25,17 +25,17 @@ const Navbar = () => {
           alt='Logo Image'
           style={{ width: "100px", height: "80px" }}
         /> */}
-        {/* <img
-          src={RGHgif}
-          alt='Logo Image'
-          style={{ width: "100px", height: "80px" }}
-        /> */}
         <img
+          src={RGHgif}
+          alt='Logo'
+          style={{ width: "100px", height: "80px" }}
+        />
+        {/* <img
           className='sm:width: 100px height: 50px'
           src={RGH2}
-          alt='Logo Image'
+          alt='Logo'
           style={{ width: "150px", height: "70px" }}
-        />
+        /> */}
       </div>
       {/* menu */}
       <ul className='hidden md:flex'>
