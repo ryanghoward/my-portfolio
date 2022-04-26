@@ -11,7 +11,8 @@ const Work = () => {
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#96d8d8]'>
             Work
           </p>
-          <p className='py-6'>Checkout some of my recent work</p>
+          {/* <p className='py-6'>Checkout some of my recent work</p> */}
+          <p className='py-6 text-center'>Coming Soon</p>
         </div>
         <img className='w-50 h-100' src={construction} alt='construction' />
         {/* <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
