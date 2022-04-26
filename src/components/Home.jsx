@@ -1,5 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import Ryan from "../assets/Ryan.PNG";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <p className='text-[#96d8d8]'>Hello, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
           Ryan G. Howard
+          <img className='w-21 mx-auto rounded-2xl' src={Ryan} alt='My face' />
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
           I'm a Full Stack Developer.

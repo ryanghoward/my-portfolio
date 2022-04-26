@@ -4,7 +4,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
-import RGHgif from "./assets/RGH.gif";
+// import RGHgif from "./assets/RGH.gif";
 import LandingPage from "./components/LandingPage";
 // import { useEffect, useState } from "react";
 import {
@@ -33,16 +33,16 @@ function App() {
     <>
       <div className='text-2xl font-bold'>
         <Router>
+          <Navbar />
           <Routes>
             <Route exact path='/' element={<LandingPage />} />
           </Routes>
-          <Navbar />
-          <Home to='/' />
-          <About />
-          <Skills />
-          <Work />
-          <Contact />
         </Router>
+        <Home />
+        <About />
+        <Skills />
+        <Work />
+        <Contact />
       </div>
     </>
   );
