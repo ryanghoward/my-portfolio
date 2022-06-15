@@ -1,7 +1,7 @@
 import React from "react";
 import WorkImg from "../assets/workImg.jpeg";
 import realEstate from "../assets/realestate.jpg";
-import WMP from "../assets/WMPhome.jpg";
+import WMP from "../assets/WaterMyPlants.PNG";
 import PP from "../assets/PotluckPlanner.PNG";
 // import construction from "../assets/construction.png";
 
