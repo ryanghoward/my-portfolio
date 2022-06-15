@@ -14,7 +14,12 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000] text-gray-300'>
       <div>
-        <img src={RGH2} alt='Logo' style={{ width: "120px", height: "80px" }} />
+        <img
+          className='sm:text-7xl'
+          src={RGH2}
+          alt='Logo'
+          style={{ width: "120px", height: "80px" }}
+        />
       </div>
       <ul className='hidden md:flex'>
         <li>
