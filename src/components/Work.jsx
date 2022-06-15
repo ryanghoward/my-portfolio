@@ -30,7 +30,7 @@ const Work = () => {
                   target='_blank'
                 >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Site
                   </button>
                 </a>
                 <a
@@ -58,7 +58,7 @@ const Work = () => {
                   target='_blank'
                 >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Site
                   </button>
                 </a>
                 <a href='https://github.com/Potluck-Planner-A' target='_blank'>
@@ -80,7 +80,7 @@ const Work = () => {
               <div className='pt-8 text-center'>
                 <a href='https://www.underdogdevs.org/' target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Site
                   </button>
                 </a>
                 <a
@@ -106,7 +106,7 @@ const Work = () => {
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Site
                   </button>
                 </a>
                 <a href='/'>
@@ -128,7 +128,7 @@ const Work = () => {
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Site
                   </button>
                 </a>
                 <a href='/'>
@@ -150,7 +150,7 @@ const Work = () => {
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Site
                   </button>
                 </a>
                 <a href='/'>
