@@ -1,9 +1,9 @@
 import React from "react";
-import WorkImg from "../assets/workImg.jpeg";
-import realEstate from "../assets/realestate.jpg";
+// import WorkImg from "../assets/workImg.jpeg";
+// import realEstate from "../assets/realestate.jpg";
 import WMP from "../assets/WaterMyPlants.PNG";
 import PP from "../assets/PotluckPlanner.PNG";
-// import construction from "../assets/construction.png";
+import UDD from "../assets/UnderdogDevs.PNG";
 
 const Work = () => {
   return (
@@ -14,9 +14,7 @@ const Work = () => {
             Work
           </p>
           <p className='py-6'>Checkout some of my recent work!</p>
-          {/* <p className='py-6 text-center'>Coming Soon</p> */}
         </div>
-        {/* <img className='w-50 h-100' src={construction} alt='construction' /> */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           <div
             style={{ backgroundImage: `url(${WMP})` }}
@@ -72,6 +70,54 @@ const Work = () => {
             </div>
           </div>
           <div
+            style={{ backgroundImage: `url(${UDD})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Underdog Devs
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://www.underdogdevs.org/' target='_blank'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href='https://github.com/BloomTech-Labs/underdog-devs-fe-a'
+                  target='_blank'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <p className='py-6'>More to come very soon!</p>
+          {/* <div
+            style={{ backgroundImage: `url(${realEstate})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            >
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                React JS Application
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
             style={{ backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
@@ -114,51 +160,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${realEstate})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
