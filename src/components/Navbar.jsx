@@ -2,6 +2,7 @@ import React, { useState } from "react";
 // import RGH from "../assets/RGH.png";
 // import RGHgif from "../assets/RGH.gif";
 import RGH2 from "../assets/RGH2.PNG";
+import Resume from "../assets/Ryan G. Howard Resume 2022.pdf";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -110,7 +111,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300 text-xl'
-              href='https://docs.google.com/document/d/1DLcjAU8fFmUXrt-9VPzF80zesnrZdHWHtt5dL-MApcU/edit?usp=sharing'
+              href={Resume}
               target='_blank'
             >
               Resume <BsFillPersonLinesFill size={30} />
