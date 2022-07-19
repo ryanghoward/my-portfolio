@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.762d3154.css",
-    "main.js": "/static/js/main.c00df4a3.js",
+    "main.js": "/static/js/main.96ceb0c0.js",
     "static/media/PotluckPlanner.PNG": "/static/media/PotluckPlanner.ee7595cdd8406d189f6c.PNG",
     "static/media/WaterMyPlants.PNG": "/static/media/WaterMyPlants.8c6dec2a651e578c137f.PNG",
+    "static/media/VHCL.PNG": "/static/media/VHCL.073cc24bba4663c74abf.PNG",
     "static/media/UnderdogDevs.PNG": "/static/media/UnderdogDevs.17d1fd9c9b7bee7c0cc2.PNG",
     "static/media/PostgreSQL.png": "/static/media/PostgreSQL.c8891cc79d21bc263a06.png",
     "static/media/Ryan G. Howard Resume 2022.pdf": "/static/media/Ryan G. Howard Resume 2022.37ce576bd611b3874b91.pdf",
@@ -17,10 +18,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.762d3154.css.map": "/static/css/main.762d3154.css.map",
-    "main.c00df4a3.js.map": "/static/js/main.c00df4a3.js.map"
+    "main.96ceb0c0.js.map": "/static/js/main.96ceb0c0.js.map"
   },
   "entrypoints": [
     "static/css/main.762d3154.css",
-    "static/js/main.c00df4a3.js"
+    "static/js/main.96ceb0c0.js"
   ]
 }
